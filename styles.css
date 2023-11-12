@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+nav{
+    background-color: lightcoral;
+    height: 100px;
+}
+
+.camisas, .pantalones, .accesorios, .calzado {
+    background-color: lightgoldenrodyellow;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.articulo{
+    background-color: lightgreen;
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+img{
+    height: 15rem;
+    width: 15rem;
+    object-fit:cover;
+}
+
+ul{
+    list-style: none;
+}
+h2{
+    position: relative;
+    left: 50%;
+}
